@@ -443,7 +443,7 @@ nav ul li #dark_mode {
 
 #about .about {
   padding-top: 125px;
-  padding-bottom: 146px;
+  padding-bottom: 120px;
 }
 #about .about h2 {
   font-weight: 700;
@@ -476,6 +476,9 @@ nav ul li #dark_mode {
   letter-spacing: 1px;
   color: #000000;
 }
+#about .about .about_title .text_left .dark span {
+  color: #fff;
+}
 #about .about .about_title .text_right {
   max-width: 617px;
   font-weight: 400;
@@ -500,27 +503,131 @@ nav ul li #dark_mode {
 #about .about .img_side .imges img {
   cursor: pointer;
 }
-
-#faq {
-  background: #000;
-  padding-top: 70px;
-  color: #fff;
+@media screen and (max-width: 560px) {
+  #about .about .img_side .imges img {
+    width: 48%;
+  }
 }
-#faq .faq_title h5 {
+@media screen and (max-width: 1100px) {
+  #about .about .img_side .imges img {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 530px) {
+  #about .about .img_side .imges img {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 280px) {
+  #about .about .img_side .imges img {
+    width: 100%;
+  }
+}
+
+#experience .experience .ex_title {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 22px;
   line-height: 22px;
+  text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #ff5e69;
-  text-align: center;
 }
-#faq .faq_title h2 {
+#experience .experience .row {
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#experience .experience .row .edu {
+  width: 47%;
+}
+#experience .experience .row .edu h4 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+#experience .experience .row .edu h3 {
   padding-top: 20px;
   font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 59px;
-  letter-spacing: 1px;
-  color: #ffffff;
-  text-align: center;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  padding-bottom: 5px;
+}
+#experience .experience .row .edu p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  padding-bottom: 30px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#experience .experience .row .edu hr {
+  opacity: 0.3;
+}
+#experience .experience .row .work {
+  width: 48%;
+}
+#experience .experience .row .work h4 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  padding-bottom: px;
+}
+#experience .experience .row .work h3 {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  padding-bottom: 5px;
+}
+#experience .experience .row .work p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  padding-bottom: 30px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#experience .experience .row .work hr {
+  opacity: 0.3;
+}
+#experience .experience .row .work h4 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 615px) {
+  #experience .experience .row .edu {
+    width: 100%;
+  }
+  #experience .experience .row .work {
+    padding-top: 20px;
+    width: 100%;
+  }
+}
+
+.dark #experience .experience .edu h3 {
+  color: #fff;
+}
+.dark #experience .experience .edu h4 {
+  color: #fff;
+}
+.dark #experience .experience .edu p {
+  color: #fff;
+}
+.dark #experience .experience .work h3 {
+  color: #fff;
+}
+.dark #experience .experience .work h4 {
+  color: #fff;
+}
+.dark #experience .experience .work p {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
