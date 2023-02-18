@@ -161,3 +161,16 @@ main.addEventListener("click", function (event) {
   event.target.src && (img.src = event.target.src);
 });
 
+//                                    test
+const item = document.querySelectorAll(".carusel_item2");
+counter = 0;
+
+item.forEach((item, index) => {
+  item.style.left = `${index * 100}%`;
+});
+
+const items2 = () => {
+  slides.forEach((slide) => {
+    item.style.transform = `transalteX (-${counter * 100}%)`;
+  });
+};

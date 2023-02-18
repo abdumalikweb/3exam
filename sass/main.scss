@@ -702,3 +702,70 @@ nav {
     }
   }
 }
+
+//                           Testmonials
+
+#testmonials {
+  h2 {
+    padding: 70px 0px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #ff5e69;
+    text-align: center;
+  }
+  .test {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .test_img {
+      width: 48%;
+      img {
+        width: 100%;
+      }
+    }
+    .test_carusel {
+      width: 48%;
+     
+
+      .carusel2 {
+      
+        .carusel_item2 {
+          width: 100%;
+
+          position: relative;
+          border: 1px solid black;
+          h1 {
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 47px;
+            color: #000000;
+            z-index: 1;
+          }
+          h4 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #000000;
+            padding: 43px 0px 8px;
+          }
+          p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px;
+            color: #000000;
+          }
+        }
+        .carusel_btn {
+          margin-top: 10px;
+          button {
+            font-size: 205px;
+            padding: 105px;
+          }
+        }
+      }
+    }
+  }
+}

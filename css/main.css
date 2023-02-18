@@ -630,4 +630,61 @@ nav ul li #dark_mode {
 }
 .dark #experience .experience .work p {
   color: #fff;
+}
+
+#testmonials h2 {
+  padding: 70px 0px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #ff5e69;
+  text-align: center;
+}
+#testmonials .test {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#testmonials .test .test_img {
+  width: 48%;
+}
+#testmonials .test .test_img img {
+  width: 100%;
+}
+#testmonials .test .test_carusel {
+  width: 48%;
+}
+#testmonials .test .test_carusel .carusel2 .carusel_item2 {
+  width: 100%;
+  position: relative;
+  border: 1px solid black;
+}
+#testmonials .test .test_carusel .carusel2 .carusel_item2 h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 47px;
+  color: #000000;
+  z-index: 1;
+}
+#testmonials .test .test_carusel .carusel2 .carusel_item2 h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  padding: 43px 0px 8px;
+}
+#testmonials .test .test_carusel .carusel2 .carusel_item2 p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+#testmonials .test .test_carusel .carusel2 .carusel_btn {
+  margin-top: 10px;
+}
+#testmonials .test .test_carusel .carusel2 .carusel_btn button {
+  font-size: 205px;
+  padding: 105px;
 }/*# sourceMappingURL=main.css.map */
