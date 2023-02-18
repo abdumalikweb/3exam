@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <title>R.Abdumalik</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img
+              width="100%"
+              class="logo_img"
+              src="./image/nav_logo/logo.png"
+              alt=""
+            />
+          </div>
+          <div class="hampur">
+            <img
+              id="close"
+              class="nav_close"
+              src="./image/nav_logo/x.svg"
+              alt=""
+            />
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Services">Services</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Experience</a></li>
+              <li><a href="#">Testmonial</a></li>
+              <li>
+                <img
+                  display:none
+                  id="dark_mode"
+                  class="dark_mode"
+                  src="./image/toggle/moon.svg"
+                  alt="toggle"
+                />
+              </li>
+            </ul>
+          </div>
+          <img
+            id="toggler"
+            class="nav-toggler"
+            src="./image/nav_logo/hamburger.svg"
+            alt=""
+          />
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="Home">
+        <div class="container">
+          <div class="Home">
+            <div class="Home_left">
+              <h2 class="home_title_animate">
+                I'm <span class="auto-type"></span>
+              </h2>
+              <h2 class="home_title_animate">
+                that delight and inspire people.
+              </h2>
+              <p class="Home_text">
+                Hi! I’m Jake, a product designer based in Berlin. I create
+                user-friendly interfaces for fast-growing startups.
+              </p>
+              <button class="btn_home">Book a call</button>
+              <button id="modal_open" class="btn_link">See_CV</button>
+            </div>
+            <div class="Home_right">
+              <img src="./image/home_section/IMAGE.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="modal">
+        <img class="modal_close" src="./image/nav_logo/x.svg" alt="" />
+        <form>
+          <label for="name">Name</label>
+          <input type="text" name="name" />
+
+          <label for="email">Email</label>
+          <input type="text" name="email" />
+          <button>Send</button>
+        </form>
+      </div>
+      <section id="Services">
+        <div class="container services">
+          <h3 class="service_title">Services</h3>
+          <h2 class="service_title_nd">
+            Design that solves problems, one product at a time.
+          </h2>
+          <div class="card"></div>
+        </div>
+      </section>
+
+      <section id="Projects">
+        <div class="container project">
+          <h2 class="title">PROJECTS</h2>
+          <div class="project_title">
+            <h2 class="sm_title">
+              I bring results. <br />My clients are proof.
+            </h2>
+            <button class="project_btn">View all projects</button>
+          </div>
+          <div class="carousel">
+            <div class="carousel-items">
+              <div class="carousel-item">
+                <img src="./image/project/IMAGE (1).png" alt="" />
+                <h1>Soulful Rebrand</h1>
+                <p>View Project</p>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/project/IMAGE (1).png" alt="" />
+                <h1>Soulful Rebrand</h1>
+                <p>View Project</p>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/project/IMAGE (1).png" alt="" />
+                <h1>Soulful Rebrand</h1>
+                <p>View Project</p>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/project/IMAGE (1).png" alt="" />
+                <h1>Soulful Rebrand</h1>
+                <p>View Project</p>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/project/IMAGE (1).png" alt="" />
+                <h1>Soulful Rebrand</h1>
+                <p>View Project</p>
+              </div>
+            </div>
+            <div class="carousel-controllers">
+              <button class="carousel-prev">&lt;</button>
+              <button class="carousel-next">&gt;</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container about">
+          <h2>About me</h2>
+          <div class="about_title">
+            <p class="text_left">
+              Product Designer <br />
+              <span>That's me!</span>
+            </p>
+            <p class="text_right">
+              Over the past 12 years, I've worked with a diverse range of
+              clients, from startups to Fortune 500 companies. I love crafting
+              interfaces that delight users and help businesses grow.
+            </p>
+          </div>
+          <div class="img_side">
+            <div class="main_img">
+              <img src="./image/about/img1.png" alt="" />
+            </div>
+            <div class="imges">
+              <img src="./image/about/img2.png" alt="" />
+              <img src="./image/about/img3.png" alt="" />
+              <img src="./image/about/img4.png" alt="" />
+              <img src="./image/about/img5.png" alt="" />
+              <img src="./image/about/img6.png" alt="" />
+              <img src="./image/about/img7.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <div class="container faq">
+          <div class="faq_title">
+            <h5>FAQ</h5>
+            <h2>Frequently asked questions</h2>
+          </div>
+
+          <div class="accordion">
+            <!-- <div class="accordion_left">
+              <div class="question">
+                <h3>What type of projects do you take on?</h3>
+                <img src="./image/accardion/chevron-up.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="accordion_right"></div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <!----------------------------------- scr -------------------->
+    <script src="./js/app.js"></script>
+
+    <!----------------------------------auto type ------------------->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["web devloper", "ui design"],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
